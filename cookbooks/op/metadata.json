@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+  },
+  "name": "op",
+  "maintainer_email": "linuxcity.jn@gmail.com",
+  "attributes": {
+  },
+  "license": "",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "Zhe Li",
+  "long_description": "",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Test",
+  "providing": {
+  }
+}
