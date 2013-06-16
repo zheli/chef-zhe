@@ -5,7 +5,7 @@ This is my personal chef-repo, a collection of setting up all my personal develo
 
 Roles
 ========
-*'python_dev' - the latest Python development environment with pip, virtualenv and virtualenvwrapper
+*`python_dev` - the latest Python development environment with pip, virtualenv and virtualenvwrapper
 
 Usage
 ========
@@ -15,7 +15,7 @@ knife bootstrap [node ip] --ssh-user zhe --ssh-password [password] --node-name [
 ```
 
 !!!!!!The text below are from original chef-repo!!!!!!
-
+<pre>
 Repository Directories
 ======================
 
@@ -75,3 +75,4 @@ Next Steps
 ==========
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+</pre>
