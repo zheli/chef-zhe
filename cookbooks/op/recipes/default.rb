@@ -11,7 +11,7 @@ package 'ntp'
 package 'git'
 
 # --- set host name ---
-hostname = 'wobu.co'
+#hostname = 'wobu.co'
 
 #file '/etc/hostname' do 
  #   content "#{hostname}\n"
