@@ -1,9 +1,20 @@
 Overview
 ========
 
-Every Chef installation needs a Chef Repository. This is the place where cookbooks, roles, config files and other artifacts for managing systems with Chef will live. We strongly recommend storing this repository in a version control system such as Git and treat it like source code.
+This is my personal chef-repo, a collection of setting up all my personal development environment.
 
-While we prefer Git, and make this repository available via GitHub, you are welcome to download a tar or zip archive and use your favorite version control system to manage the code.
+Roles
+========
+*'python_dev' - the latest Python development environment with pip, virtualenv and virtualenvwrapper
+
+Usage
+========
+Use this command to bootstrap a python development node
+```
+knife bootstrap [node ip] --ssh-user zhe --ssh-password [password] --node-name [nonde name] --run-list "role[python_dev]" --sudo
+```
+
+!!!!!!The text below are from original chef-repo!!!!!!
 
 Repository Directories
 ======================

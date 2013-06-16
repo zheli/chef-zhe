@@ -2,6 +2,7 @@ name 'python_dev'
 description 'python dev server'
 default_attributes({
   'python' => {
+    'install_method' => 'source',
     'version' => '2.7.5'
   }
 })
